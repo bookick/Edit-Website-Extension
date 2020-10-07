@@ -1,0 +1,33 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "assets/icon19.png",
+         "38": "assets/icon38.png"
+      }
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "chromeos": "Alt+E",
+            "linux": "Alt+E",
+            "mac": "Alt+E",
+            "windows": "Alt+E"
+         }
+      }
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Edit Live Websites Text On The Fly",
+   "icons": {
+      "128": "assets/icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhJ+SUn9fLXlUFKxaz/D9gf69YU6gdCwjTPEpiS0uEaE8jMjU2gsqRZYYj33hPxKLUOKMODbGoIRtV7Sx+1ZrYFkaDxQSy5MHa9BML1cqN5MupdtL/t26icXhyGwlHA01E7SP1GaruiS0jpgUe72yasJpo3IREojX2ooKpHW5siyFbJhLFHq2bnC9BALT4pu3QNEXkFGYPN4BU/csZ9FA7i+YIN3xOTKbfLk7Mu/2mV7QMnwtvFQ4J+p4Pzed4YWPVGp+TS4hSbJBUJDiC7ti10ua2YN6M7oeuJiz1O6hShGI60UnkU2Q4XAHj+aO1EnC47ty1M4pu/4JooCj0ff+aQIDAQAB",
+   "manifest_version": 2,
+   "name": "Edit Website Extension",
+   "permissions": [ "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3"
+}
